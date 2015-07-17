@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="optometry_gateway"> 
+        <attr name="buttontype" format="integer"/>
+        <attr name="buttonindex" format="integer"/> 
+        <attr name="buttoneye" format="integer"/>
+    </declare-styleable>    
+</resources>

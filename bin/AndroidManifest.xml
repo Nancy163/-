@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rs.optometry_gateway"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application
+        android:name="com.rs.optometry_gateway.Optometry_gateway"
+        android:allowBackup="true"
+        android:icon="@drawable/optometry"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rs.optometry_gateway.Optometry_console"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:label="验光仪网关控制台" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.rs.optometry_gateway.Optometry_service"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.rs.service.Optometry_service" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.rs.optometry_gateway.Optometry_contrl"
+            android:label="@string/title_activity_optometry_contrl"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">           
+        </activity>
+        <activity
+            android:name="com.rs.optometry_gateway.Optometry_log"
+            android:label="@string/title_activity_optometry_log" >
+        </activity>
+    </application>
+
+</manifest>

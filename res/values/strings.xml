@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Optometry_gateway</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_console">网关控制台</string>
+    <string name="title_activity_optometry_contrl">验光仪控制台</string>
+    <string name="title_activity_optometry_log">Optomery_log</string>
+
+</resources>

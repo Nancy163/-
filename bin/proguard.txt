@@ -1,0 +1,59 @@
+# view res/layout/activity_optometry_contrl.xml #generated:270
+# view res/layout/activity_optometry_contrl.xml #generated:281
+# view res/layout/activity_optometry_contrl.xml #generated:293
+-keep class com.rs.optometry_gateway.Optometry_button_add { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:108
+# view res/layout/activity_optometry_contrl.xml #generated:83
+# view res/layout/activity_optometry_contrl.xml #generated:94
+-keep class com.rs.optometry_gateway.Optometry_button_cylinder { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:129
+# view res/layout/activity_optometry_contrl.xml #generated:141
+# view res/layout/activity_optometry_contrl.xml #generated:153
+-keep class com.rs.optometry_gateway.Optometry_button_cylinder_axis { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:37
+# view res/layout/activity_optometry_contrl.xml #generated:48
+# view res/layout/activity_optometry_contrl.xml #generated:62
+-keep class com.rs.optometry_gateway.Optometry_button_diopter { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:488
+# view res/layout/activity_optometry_contrl.xml #generated:525
+-keep class com.rs.optometry_gateway.Optometry_button_lens { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:410
+# view res/layout/activity_optometry_contrl.xml #generated:421
+# view res/layout/activity_optometry_contrl.xml #generated:434
+-keep class com.rs.optometry_gateway.Optometry_button_pd { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:176
+# view res/layout/activity_optometry_contrl.xml #generated:187
+# view res/layout/activity_optometry_contrl.xml #generated:200
+-keep class com.rs.optometry_gateway.Optometry_button_prism1 { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:223
+# view res/layout/activity_optometry_contrl.xml #generated:234
+# view res/layout/activity_optometry_contrl.xml #generated:246
+-keep class com.rs.optometry_gateway.Optometry_button_prism2 { <init>(...); }
+
+# view res/layout/activity_optometry_contrl.xml #generated:498
+# view res/layout/activity_optometry_contrl.xml #generated:506
+# view res/layout/activity_optometry_contrl.xml #generated:515
+-keep class com.rs.optometry_gateway.Optometry_button_va { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.rs.optometry_gateway.Optometry_console { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.rs.optometry_gateway.Optometry_contrl { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.rs.optometry_gateway.Optometry_gateway { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.rs.optometry_gateway.Optometry_log { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.rs.optometry_gateway.Optometry_service { <init>(...); }
+

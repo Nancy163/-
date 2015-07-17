@@ -1,0 +1,590 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:optometry_gateway="http://schemas.android.com/apk/res/com.rs.optometry_gateway"
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:scrollbars="vertical"  
+    android:background="#FFFFFF"
+    android:fadingEdge="vertical">  
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >    
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:background="#e6edf8"
+    android:orientation="vertical" >
+               
+    <View  
+     android:layout_width="fill_parent"  
+     android:layout_height="1px"  
+     android:background="?android:attr/listDivider"  
+     />       
+    <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+        <com.rs.optometry_gateway.Optometry_button_diopter
+            android:id="@+id/control_button_diopter_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"            
+            android:text="设置1" />   
+                 
+        <com.rs.optometry_gateway.Optometry_button_diopter
+            android:id="@+id/control_button_diopter_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"            
+            android:text="设置" />     
+   
+ 
+            
+        <com.rs.optometry_gateway.Optometry_button_diopter
+            android:id="@+id/control_button_diopter_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"
+            android:text="设置" />           
+                       
+    </LinearLayout>  
+     <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+         <com.rs.optometry_gateway.Optometry_button_cylinder
+            android:id="@+id/control_button_cylinder_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="设置1" />   
+                 
+        <com.rs.optometry_gateway.Optometry_button_cylinder
+            android:id="@+id/control_button_cylinder_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:text="设置" />     
+   
+  
+            
+         <com.rs.optometry_gateway.Optometry_button_cylinder
+            android:id="@+id/control_button_cylinder_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"            
+            android:text="设置" />         
+                       
+    </LinearLayout>  
+      <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+        <com.rs.optometry_gateway.Optometry_button_cylinder_axis
+            android:id="@+id/control_button_cylinder_axis_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="设置" />       
+ 
+                 
+        <com.rs.optometry_gateway.Optometry_button_cylinder_axis
+            android:id="@+id/control_button_cylinder_axis_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:text="设置" />     
+
+        <com.rs.optometry_gateway.Optometry_button_cylinder_axis
+            android:id="@+id/control_button_cylinder_axis_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"  
+            android:text="设置" />               
+                       
+    </LinearLayout>  
+    
+      <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+   
+         <com.rs.optometry_gateway.Optometry_button_prism1
+            android:id="@+id/control_button_prism1_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="设置1" />  
+                 
+        <com.rs.optometry_gateway.Optometry_button_prism1
+            android:id="@+id/control_button_prism1_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:textSize="16dp"
+            android:text="设置" />     
+   
+            
+        <com.rs.optometry_gateway.Optometry_button_prism1
+            android:id="@+id/control_button_prism1_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"  
+            android:text="设置" />               
+                       
+    </LinearLayout>  
+    
+      <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+   
+         <com.rs.optometry_gateway.Optometry_button_prism2
+            android:id="@+id/control_button_prism2_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="设置1" />  
+                 
+        <com.rs.optometry_gateway.Optometry_button_prism2
+            android:id="@+id/control_button_prism2_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:text="设置" />     
+            
+        <com.rs.optometry_gateway.Optometry_button_prism2
+            android:id="@+id/control_button_prism2_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"  
+            android:text="设置" />               
+   
+                       
+    </LinearLayout>  
+    
+     <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+    
+         <com.rs.optometry_gateway.Optometry_button_add
+            android:id="@+id/control_button_add_right"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="设置1" /> 
+                 
+        <com.rs.optometry_gateway.Optometry_button_add
+            android:id="@+id/control_button_add_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:text="设置" />     
+     
+        <com.rs.optometry_gateway.Optometry_button_add
+            android:id="@+id/control_button_add_left"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"  
+            android:text="设置" />              
+            
+                          
+    </LinearLayout>  
+    <View  
+     android:layout_width="fill_parent"  
+     android:layout_height="1px"  
+     android:layout_marginTop="10px"
+     android:background="?android:attr/listDivider"  
+     />        
+ </LinearLayout> 
+         
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:background="#93b3d8"
+    android:orientation="vertical" >
+               
+    <View  
+     android:layout_width="fill_parent"  
+     android:layout_height="1px"  
+     android:background="?android:attr/listDivider"  
+     />           
+        
+     <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"        
+     
+        <Button
+            android:id="@+id/control_button_farnear"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="#436fb1"
+            android:layout_weight="1"  
+            android:text="远用" />   
+                 
+        <Button
+            android:id="@+id/control_button_naked"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textColor="#FFFFFF"
+            android:background="#436fb1"            
+            android:textSize="16dp"
+            android:text="裸眼" />     
+   
+         <Button
+            android:id="@+id/control_button_optometry"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="#436fb1" 
+            android:layout_marginRight="4dp"
+            android:text="验光" />     
+            
+          <Button
+            android:id="@+id/control_button_reset"
+            android:layout_width="80dp"          
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:background="#436fb1" 
+            android:layout_marginRight="4dp" 
+            android:text="复位" />           
+                       
+    </LinearLayout>  
+    
+    <View  
+     android:layout_width="fill_parent"  
+     android:layout_height="1px"  
+     android:layout_marginTop="10px"
+     android:background="?android:attr/listDivider"  
+     />      
+    
+    </LinearLayout>       
+
+ 
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:background="#e6edf8"
+    android:orientation="vertical" >
+    
+       <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"      
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+     
+   
+         <com.rs.optometry_gateway.Optometry_button_pd
+            android:id="@+id/control_button_pd_right"
+            android:layout_width="80dp"          
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:layout_marginLeft="4dp"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:text="R:32.0" />  
+                 
+        <com.rs.optometry_gateway.Optometry_button_pd
+            android:id="@+id/control_button_pd_ctrl"
+            android:layout_width="80dp"          
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            optometry_gateway:buttontype="2"
+            optometry_gateway:buttoneye="0"  
+            android:textSize="10dp"
+            android:text="   " />     
+   
+            
+        <com.rs.optometry_gateway.Optometry_button_pd
+            android:id="@+id/control_button_pd_left"
+            android:layout_width="80dp"          
+            android:layout_height="30dp"
+            android:layout_marginRight="4dp"
+            android:textSize="10dp"
+            android:layout_weight="1"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"  
+            android:text="L:32.0" />               
+                       
+    </LinearLayout>     
+    
+    <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:layout_weight="1"  
+        android:orientation="horizontal">"
+        <ImageButton
+            android:id="@+id/imageButton11111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="#00000000"
+            android:src="@drawable/arrow_left" />         
+ 
+          <TextView
+            android:id="@+id/control_text_pd_value"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:textSize="10dp"
+            android:text="PD:64" />   
+            
+            <ImageButton
+            android:id="@+id/imageButton11111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#00000000"
+            android:src="@drawable/arrow_right" />         
+      </LinearLayout>       
+    
+
+     <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">"
+          <com.rs.optometry_gateway.Optometry_button_lens
+            android:id="@+id/control_button_lens_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="1"  
+            android:src="@drawable/mid_set_normal" />         
+ 
+         <com.rs.optometry_gateway.Optometry_button_va
+            android:id="@+id/control_button_va_left"
+            android:layout_width="60dp"          
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textSize="16dp"
+            android:text="  " />   
+                 
+        <com.rs.optometry_gateway.Optometry_button_va
+            android:id="@+id/control_button_va_ctrl"
+            android:layout_width="60dp"          
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16dp"
+            android:text=" VA " />     
+   
+         <com.rs.optometry_gateway.Optometry_button_va
+            android:id="@+id/control_button_va_right"
+            android:layout_width="60dp"          
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginRight="4dp"
+            android:text="  " />           
+          
+
+            
+          <com.rs.optometry_gateway.Optometry_button_lens
+            android:id="@+id/control_button_lens_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            optometry_gateway:buttontype="1"
+            optometry_gateway:buttoneye="2"              
+            android:src="@drawable/mid_set_normal" />         
+ 
+  </LinearLayout> 
+   
+       <LinearLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4dp"
+        android:gravity="top|center_horizontal"
+        android:layout_weight="1"  
+        android:orientation="horizontal">"
+        <ImageButton
+            android:id="@+id/control_button_cross1_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:src="@drawable/right_cc_normal" />         
+ 
+          <ImageButton
+            android:id="@+id/control_button_addvalue_ctrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/add_normal" />   
+    
+          <ImageButton
+            android:id="@+id/control_button_decvalue_ctrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/dec_normal" />          
+  
+            
+            <ImageButton
+            android:id="@+id/control_button_cross2_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:src="@drawable/left_cc_normal" />         
+      </LinearLayout>
+    <View  
+     android:layout_width="fill_parent"  
+     android:layout_height="1px"  
+     android:layout_marginTop="30px"
+     android:background="?android:attr/listDivider"  
+     />               
+  </LinearLayout>   
+ </LinearLayout>      
+ </ScrollView>

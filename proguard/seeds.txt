@@ -1,0 +1,206 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.rs.optometry_gateway.Optometry_button: Optometry_button(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_add
+com.rs.optometry_gateway.Optometry_button_add: Optometry_button_add(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_cylinder
+com.rs.optometry_gateway.Optometry_button_cylinder: Optometry_button_cylinder(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_cylinder_axis
+com.rs.optometry_gateway.Optometry_button_cylinder_axis: Optometry_button_cylinder_axis(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_diopter
+com.rs.optometry_gateway.Optometry_button_diopter: Optometry_button_diopter(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_lens
+com.rs.optometry_gateway.Optometry_button_lens: Optometry_button_lens(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_pd
+com.rs.optometry_gateway.Optometry_button_pd: Optometry_button_pd(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_prism1
+com.rs.optometry_gateway.Optometry_button_prism1: Optometry_button_prism1(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_prism2
+com.rs.optometry_gateway.Optometry_button_prism2: Optometry_button_prism2(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_button_va
+com.rs.optometry_gateway.Optometry_button_va: Optometry_button_va(android.content.Context,android.util.AttributeSet)
+com.rs.optometry_gateway.Optometry_console
+com.rs.optometry_gateway.Optometry_console: Optometry_console()
+com.rs.optometry_gateway.Optometry_console: void onClick(android.view.View)
+com.rs.optometry_gateway.Optometry_contrl
+com.rs.optometry_gateway.Optometry_contrl: Optometry_contrl()
+com.rs.optometry_gateway.Optometry_contrl: void onClick(android.view.View)
+com.rs.optometry_gateway.Optometry_gateway
+com.rs.optometry_gateway.Optometry_gateway: Optometry_gateway()
+com.rs.optometry_gateway.Optometry_service
+com.rs.optometry_gateway.Optometry_service: Optometry_service()
+com.rs.optometry_gateway.R$attr: int buttoneye
+com.rs.optometry_gateway.R$attr: int buttonindex
+com.rs.optometry_gateway.R$attr: int buttontype
+com.rs.optometry_gateway.R$dimen: int activity_horizontal_margin
+com.rs.optometry_gateway.R$dimen: int activity_vertical_margin
+com.rs.optometry_gateway.R$drawable: int add_normal
+com.rs.optometry_gateway.R$drawable: int arrow_left
+com.rs.optometry_gateway.R$drawable: int arrow_right
+com.rs.optometry_gateway.R$drawable: int control_button_center
+com.rs.optometry_gateway.R$drawable: int control_button_left
+com.rs.optometry_gateway.R$drawable: int control_button_left_active
+com.rs.optometry_gateway.R$drawable: int control_button_right
+com.rs.optometry_gateway.R$drawable: int control_button_right_active
+com.rs.optometry_gateway.R$drawable: int dec_normal
+com.rs.optometry_gateway.R$drawable: int ic_launcher
+com.rs.optometry_gateway.R$drawable: int left_cc_normal
+com.rs.optometry_gateway.R$drawable: int lens0
+com.rs.optometry_gateway.R$drawable: int lens1
+com.rs.optometry_gateway.R$drawable: int lens10
+com.rs.optometry_gateway.R$drawable: int lens11
+com.rs.optometry_gateway.R$drawable: int lens12_1
+com.rs.optometry_gateway.R$drawable: int lens12_2
+com.rs.optometry_gateway.R$drawable: int lens13l
+com.rs.optometry_gateway.R$drawable: int lens13r
+com.rs.optometry_gateway.R$drawable: int lens14
+com.rs.optometry_gateway.R$drawable: int lens2
+com.rs.optometry_gateway.R$drawable: int lens3
+com.rs.optometry_gateway.R$drawable: int lens4l
+com.rs.optometry_gateway.R$drawable: int lens4r
+com.rs.optometry_gateway.R$drawable: int lens5l
+com.rs.optometry_gateway.R$drawable: int lens5r
+com.rs.optometry_gateway.R$drawable: int lens6
+com.rs.optometry_gateway.R$drawable: int lens7
+com.rs.optometry_gateway.R$drawable: int lens8
+com.rs.optometry_gateway.R$drawable: int lens9
+com.rs.optometry_gateway.R$drawable: int mid_set_normal
+com.rs.optometry_gateway.R$drawable: int optometry
+com.rs.optometry_gateway.R$drawable: int right_cc_normal
+com.rs.optometry_gateway.R$id: int action_settings
+com.rs.optometry_gateway.R$id: int console_button_connectdevice
+com.rs.optometry_gateway.R$id: int console_button_connectserver
+com.rs.optometry_gateway.R$id: int console_button_device
+com.rs.optometry_gateway.R$id: int console_button_exit
+com.rs.optometry_gateway.R$id: int console_button_gatawayid
+com.rs.optometry_gateway.R$id: int console_button_gatawayname
+com.rs.optometry_gateway.R$id: int console_button_gatewayinfo
+com.rs.optometry_gateway.R$id: int console_button_local
+com.rs.optometry_gateway.R$id: int console_button_restartserver
+com.rs.optometry_gateway.R$id: int console_button_serverip
+com.rs.optometry_gateway.R$id: int console_button_servername
+com.rs.optometry_gateway.R$id: int console_button_serverport
+com.rs.optometry_gateway.R$id: int console_text_contrl
+com.rs.optometry_gateway.R$id: int console_text_device
+com.rs.optometry_gateway.R$id: int console_text_device_mac
+com.rs.optometry_gateway.R$id: int console_text_server
+com.rs.optometry_gateway.R$id: int control_button_add_ctrl
+com.rs.optometry_gateway.R$id: int control_button_add_left
+com.rs.optometry_gateway.R$id: int control_button_add_right
+com.rs.optometry_gateway.R$id: int control_button_addvalue_ctrl
+com.rs.optometry_gateway.R$id: int control_button_cross1_select
+com.rs.optometry_gateway.R$id: int control_button_cross2_select
+com.rs.optometry_gateway.R$id: int control_button_cylinder_axis_ctrl
+com.rs.optometry_gateway.R$id: int control_button_cylinder_axis_left
+com.rs.optometry_gateway.R$id: int control_button_cylinder_axis_right
+com.rs.optometry_gateway.R$id: int control_button_cylinder_ctrl
+com.rs.optometry_gateway.R$id: int control_button_cylinder_left
+com.rs.optometry_gateway.R$id: int control_button_cylinder_right
+com.rs.optometry_gateway.R$id: int control_button_decvalue_ctrl
+com.rs.optometry_gateway.R$id: int control_button_diopter_ctrl
+com.rs.optometry_gateway.R$id: int control_button_diopter_left
+com.rs.optometry_gateway.R$id: int control_button_diopter_right
+com.rs.optometry_gateway.R$id: int control_button_farnear
+com.rs.optometry_gateway.R$id: int control_button_lens_left
+com.rs.optometry_gateway.R$id: int control_button_lens_right
+com.rs.optometry_gateway.R$id: int control_button_naked
+com.rs.optometry_gateway.R$id: int control_button_optometry
+com.rs.optometry_gateway.R$id: int control_button_pd_ctrl
+com.rs.optometry_gateway.R$id: int control_button_pd_left
+com.rs.optometry_gateway.R$id: int control_button_pd_right
+com.rs.optometry_gateway.R$id: int control_button_prism1_ctrl
+com.rs.optometry_gateway.R$id: int control_button_prism1_left
+com.rs.optometry_gateway.R$id: int control_button_prism1_right
+com.rs.optometry_gateway.R$id: int control_button_prism2_ctrl
+com.rs.optometry_gateway.R$id: int control_button_prism2_left
+com.rs.optometry_gateway.R$id: int control_button_prism2_right
+com.rs.optometry_gateway.R$id: int control_button_reset
+com.rs.optometry_gateway.R$id: int control_button_va_ctrl
+com.rs.optometry_gateway.R$id: int control_button_va_left
+com.rs.optometry_gateway.R$id: int control_button_va_right
+com.rs.optometry_gateway.R$id: int control_text_pd_value
+com.rs.optometry_gateway.R$id: int imageButton11111
+com.rs.optometry_gateway.R$id: int optometry_log_view
+com.rs.optometry_gateway.R$id: int textView2
+com.rs.optometry_gateway.R$id: int widget36
+com.rs.optometry_gateway.R$layout: int activity_optomery_log
+com.rs.optometry_gateway.R$layout: int activity_optometry_contrl
+com.rs.optometry_gateway.R$layout: int activity_optometry_gateway
+com.rs.optometry_gateway.R$layout: int shape_button
+com.rs.optometry_gateway.R$menu: int optomery_log
+com.rs.optometry_gateway.R$menu: int optometry_contrl
+com.rs.optometry_gateway.R$menu: int optometry_gateway
+com.rs.optometry_gateway.R$string: int action_settings
+com.rs.optometry_gateway.R$string: int app_console
+com.rs.optometry_gateway.R$string: int app_name
+com.rs.optometry_gateway.R$string: int hello_world
+com.rs.optometry_gateway.R$string: int title_activity_optometry_contrl
+com.rs.optometry_gateway.R$string: int title_activity_optometry_log
+com.rs.optometry_gateway.R$style: int AppBaseTheme
+com.rs.optometry_gateway.R$style: int AppTheme
+com.rs.optometry_gateway.R$styleable: int[] optometry_gateway
+com.rs.optometry_gateway.R$styleable: int optometry_gateway_buttoneye
+com.rs.optometry_gateway.R$styleable: int optometry_gateway_buttonindex
+com.rs.optometry_gateway.R$styleable: int optometry_gateway_buttontype
